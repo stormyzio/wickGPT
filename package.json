@@ -20,5 +20,8 @@
 		"random-hex-color": "^1.0.1",
 		"recordrtc": "5.5.1",
 		"whammy": "^0.0.1"
+	},
+	"engines": {
+		"node": "v20.18.1"
 	}
 }

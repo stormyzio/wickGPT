@@ -1,6 +1,6 @@
 <script>
     import App from "./App.svelte";
-    import WickGPT from "$lib/assets/WickGPT.svg";
+    import WickGPT from "$lib/assets/wickgpt.svg";
 </script>
 
 <div class="container">

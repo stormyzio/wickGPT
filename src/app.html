@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>WickGPT</title>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimal-ui">
+		<title>Wick GPT</title>
+		<meta name="description" content="Online tool to generate fake clips of chatGPT responses!"/>
+
+		<!-- Schema.org (For Google+) -->
+		<meta itemprop="name" content="Wick GPT">
+		<meta itemprop="description" content="Online tool to generate fake clips of chatGPT responses!">
+		<meta itemprop="image" content="">
+
+		<!-- Twitter Card markup-->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:creator" content="">
+		<meta name="twitter:url" content="https://wickgpt.kiube.net">
+		<meta name="twitter:title" content="Wick GPT">
+		<meta name="twitter:description" content="Online tool to generate fake clips of chatGPT responses!">
+		<meta name="twitter:site" content="">
+		<!-- The image must be a minimum size of 120px by 120px and must be less than 1MB in file size. The image will be cropped to a square on all platforms.	 -->
+		<meta name="twitter:image" content="summary">
+
+		<!-- Open Graph markup (Facebook) -->
+		<meta property="og:url" content="https://wickgpt.kiube.net/"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:title" content="Wick GPT"/>
+		<meta property="og:description" content="Online tool to generate fake clips of chatGPT responses!"/>
+		<meta property="og:image" content=""/>
+		<meta property="og:locale" content="en_US"/>
+		<meta property="og:site_name" content="Wick GPT"/>
+		
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: flex">%sveltekit.body%</div>
+	</body>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			background-color: #171717;
+			color: #fff;
+		}
+
+		body > :first-child {
+			height: 100%;
+		}
+
+		* {
+			font-family: ui-sans-serif, -apple-system, system-ui, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
+			box-sizing: border-box;
+		}
+	</style>
+</html>

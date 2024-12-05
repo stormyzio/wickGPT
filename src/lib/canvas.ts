@@ -150,7 +150,7 @@ export function renderResponse(canvas: HTMLCanvasElement, q: string, r: string, 
 
     ctx.fillStyle = colors.bg;
     ctx.fillRect(IMAGE_SIZE + VIEW_PADDING.x + 30, 0, canvas.width, canvas.height);
-    ctx.font = `300 ${s/45}px system-ui`;
+    ctx.font = `300 ${s/45}px ui-sans-serif,-apple-system,system-ui,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol`;
 
     let bubble: BubbleProperties = renderBubble(ctx, q);
     drawResponse(ctx, r, bubble, animation);
@@ -165,7 +165,7 @@ export async function renderBubbleAndImage(canvas: HTMLCanvasElement, q: string,
     
         ctx.fillStyle = colors.bg;
         ctx.fillRect(0, 0, canvas.width, canvas.height);
-        ctx.font = `300 ${s/45}px system-ui`;
+        ctx.font = `300 ${s/45}px ui-sans-serif,-apple-system,system-ui,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol`;
     
         let bubble: BubbleProperties = renderBubble(ctx, q);
         await renderImage(ctx, bubble);
